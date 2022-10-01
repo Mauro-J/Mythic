@@ -1,5 +1,5 @@
 ![DownloadCount](https://img.shields.io/github/downloads/darklinkpower/Mythic/total.svg)
-# Mythic
+# Mythic Grid View Mod
 Theme inspired by Epic Games Launcher for [Playnite](https://github.com/JosefNemec/Playnite) Desktop Mode.
 
 Playnite forum thread: https://playnite.link/forum/thread-1136.html
@@ -42,10 +42,14 @@ Option C: Download from the Addons browser in Playnite.
 - Banners and other functionality: via custom integration of the [ThemeExtras](https://playnite.link/addons.html#felixkmh_Extras_Plugin) extension.
 
 ## Screenshots
+
+GridView Edit
+![Screenshot](https://raw.githubusercontent.com/Mauro-J/Mythic/master/screenshots/screenshot_05.jpg)
+
+![Screenshot](https://raw.githubusercontent.com/darklinkpower/Mythic/master/screenshots/screenshot_03.jpg)
+
 ![Screenshot](https://raw.githubusercontent.com/darklinkpower/Mythic/master/screenshots/screenshot_01.jpg)
 
 ![Screenshot](https://raw.githubusercontent.com/darklinkpower/Mythic/master/screenshots/screenshot_02.jpg)
-
-![Screenshot](https://raw.githubusercontent.com/darklinkpower/Mythic/master/screenshots/screenshot_03.jpg)
 
 ![Screenshot](https://raw.githubusercontent.com/darklinkpower/Mythic/master/screenshots/screenshot_04.jpg)
