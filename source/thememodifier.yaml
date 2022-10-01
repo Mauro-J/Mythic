@@ -11,6 +11,7 @@ Constants:
     - DetailsViewAllowUseOfLogos: 'Allow use of logos (Requires Extra Metadata Loader extension)'
     - DetailsViewLibraryGameShowFavorite: 'Show favorites icon in game list'
     - "Grid View Details"
+    - VideoBackground: 'Show Extra Metadata Video on Background'
     - GridViewPlaceDescriptionAtBottom: 'Place game description at the bottom'
     - GridViewDetailsIconsVisibility: 'Visibility of icons in details'
     - GridViewAllowUseOfLogos: 'Allow use of logos (Requires Extra Metadata Loader extension)'
@@ -24,3 +25,5 @@ Constants:
     - GridViewCoverDisplayLibraryBanner: 'Show banners (Requires ThemeExtras extension)'
     - GridViewCoverUseRoundedCorners: 'Use rounded corners'
     - GridViewCoverDisplayDropShadowEffect: 'Use dropshadow effect'
+    - GridViewTopPanel(0,1000): Grid view top part height
+    - DetailViewTopPanel(0,1000): Details view top part height

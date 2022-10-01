@@ -4,7 +4,9 @@
                     xmlns:popt="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
 
     <!--Theme settings region start-->
-
+    <sys:Double x:Key="GridViewTopPanel">183</sys:Double>
+    <sys:Double x:Key="DetailViewTopPanel">230</sys:Double>
+    
     <sys:Double x:Key="TopPanelSearchBoxWidth">240</sys:Double>
     <sys:Double x:Key="DetailsViewDetailsMaxWidth">1024</sys:Double>
     <sys:Boolean x:Key="DetailsViewDisplayGameNameIfLogoVisible">True</sys:Boolean>
@@ -12,19 +14,21 @@
     <sys:Double x:Key="DetailsBackgroundDarkenLayerOpacity">1.0</sys:Double>
     <Visibility x:Key="DetailsViewDetailsIconsVisibility">Visible</Visibility>
     <Visibility x:Key="GridViewDetailsIconsVisibility">Visible</Visibility>
-    <Visibility x:Key="GridViewCoverSubtitleVisibility">Visible</Visibility>
+    <Visibility x:Key="GridViewCoverSubtitleVisibility">Collapsed</Visibility>
     <sys:Boolean x:Key="DetailsViewAllowUseOfLogos">true</sys:Boolean>
     <sys:Boolean x:Key="GridViewAllowUseOfLogos">true</sys:Boolean>
     <sys:Boolean x:Key="DetailsViewLibraryGameShowFavorite">true</sys:Boolean>
     <sys:Boolean x:Key="GridViewLibraryGameShowFavorite">true</sys:Boolean>
     <sys:Boolean x:Key="GridViewShowHltbDataGrid">True</sys:Boolean>
-    <sys:Boolean x:Key="GridViewEnableCoverShineAnimation">False</sys:Boolean>
-    <sys:Boolean x:Key="GridViewCoverDisplayLibraryBanner">True</sys:Boolean>
+    <sys:Boolean x:Key="GridViewEnableCoverShineAnimation">True</sys:Boolean>
+    <sys:Boolean x:Key="GridViewCoverDisplayLibraryBanner">False</sys:Boolean>
     <sys:Boolean x:Key="GridViewCoverUseRoundedCorners">True</sys:Boolean>
     <sys:Boolean x:Key="GridViewCoverDisplayDropShadowEffect">False</sys:Boolean>
-    <sys:Boolean x:Key="GridViewEnablePlayingGlowBorder">True</sys:Boolean>
+    <sys:Boolean x:Key="GridViewEnablePlayingGlowBorder">True</sys:Boolean>															   
     <sys:Boolean x:Key="GridViewPlaceDescriptionAtBottom">False</sys:Boolean>
     <sys:Boolean x:Key="LibraryUseNoiseOpacityLayer">True</sys:Boolean>
+
+    <sys:Boolean x:Key="VideoBackground">True</sys:Boolean>
     <!--region end-->
 
     <sys:Double x:Key="FontSizeSmall">12</sys:Double>
@@ -72,7 +76,7 @@
     <Color x:Key="HoverColor">#373538</Color>
     <Color x:Key="GlyphColor">#433de7</Color>
     <Color x:Key="GlyphColorSecondary">#2f3543</Color>
-    <Color x:Key="DataChangeNotifColor">#ffa500</Color>
+    <Color x:Key="DataChangeNotifColor">#ffa500</Color>							   
     <!---->
     <Color x:Key="HighlightGlyphColor">#373538</Color>
     <Color x:Key="PopupBackgroundColor">#121212</Color>
@@ -265,7 +269,7 @@
     
     <SolidColorBrush x:Key="MenusSeparatorBrush" Color="#6b6b6b" />
     <SolidColorBrush x:Key="MenusHoverBackgroundBrush" Color="#0066da" />
-    <SolidColorBrush x:Key="SearchViewWindowBackgroundBrush" Color="#262626" />
+    <SolidColorBrush x:Key="SearchViewWindowBackgroundBrush" Color="#262626" />																		   
 
     <!-- Noise Brush obtained from https://github.com/felixkmh/StartPage-for-Playnite/-->
     <ImageBrush x:Key="DarkNoiseBrush" ImageSource="{ThemeFile 'Images/dark_noise.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute"
